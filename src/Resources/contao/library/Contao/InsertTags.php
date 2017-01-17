@@ -836,8 +836,8 @@ class InsertTags extends \Controller
 
 							$picture = array
 							(
-								'img' => $picture->getImg(TL_ROOT, TL_FILES_URL),
-								'sources' => $picture->getSources(TL_ROOT, TL_FILES_URL)
+								'img' => $picture->getImg(TL_ROOT),
+								'sources' => $picture->getSources(TL_ROOT)
 							);
 
 							$picture['alt'] = $alt;
